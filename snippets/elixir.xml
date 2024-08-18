@@ -15,7 +15,7 @@
   
   <remote name="elixir-devices"
           fetch="https://github.com/ProjectElixir-Devices"
-          revision="A14" />
+          revision="refs/heads/UDC" />
 
   <!-- Bitbucket -->
   <remote  name="elixir-bb"
