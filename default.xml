@@ -1326,6 +1326,10 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
+  <!-- Add all Project Elixir repos -->
+  <include name="snippets/elixir.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>
