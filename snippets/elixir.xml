@@ -41,10 +41,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- External Repos-->
-  <project path="external/piex" name="external_piex" remote="elixir" clone-depth="1" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" revision="UNO-QPR2" remote="elixir" clone-depth="1" />
-
   <!-- Hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="elixir" clone-depth="1" />
   <project path="hardware/mediatek" name="hardware_mediatek" remote="elixir" clone-depth="1" />
@@ -52,7 +48,7 @@
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" revision="UNO-Public" remote="elixir" clone-depth="1" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="elixir" clone-depth="1" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom,kailua-vendor" revision="UNO-QPR2" remote="elixir" />
+  <!-- <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom,kailua-vendor" revision="UNO-QPR2" remote="elixir" /> -->
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="elixir" />
 
   <!-- Packages repos -->
@@ -81,7 +77,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
   <project path="system/core" name="platform_system_core" remote="aosp-mirror" revision="main" clone-depth="1" />
   <project path="system/vold" name="system_vold" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
-  <project path="system/security" name="system_security" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
+  <!-- <project path="system/security" name="system_security" remote="elixir" revision="UNO-QPR2" clone-depth="1" /> -->
   <project path="system/bpf" name="system_bpf" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
   <project path="system/netd" name="system_netd" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
   <project path="system/update_engine" name="system_update_engine" revision="UNO-QPR2" remote="elixir" clone-depth="1" />
