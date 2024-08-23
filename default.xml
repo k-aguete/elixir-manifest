@@ -1326,6 +1326,12 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
+  <!-- Add all Project Elixir repos -->
+  <include name="snippets/elixir.xml" />
+
+  <!-- LineageOS -->
   <include name="snippets/lineage.xml" />
-  <include name="snippets/crdroid.xml" />
+
+  <!-- Pixel Experience-->
+  <include name="snippets/pixel.xml" />
 </manifest>
