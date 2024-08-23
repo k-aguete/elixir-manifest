@@ -9,7 +9,9 @@
 
   <remote name="aosp-mirror" fetch="https://github.com/aosp-mirror" revision="refs/heads/main"/>
 
-  <remote name="elixir-devices" fetch="https://github.com/ProjectElixir-Devices" revision="refs/heads/UDC" />
+  <remote name="elixir-devices" fetch="https://github.com/ProjectElixir-Devices" revision="A14" />
+
+  <remote name="elixir-zenka" fetch="https://gitlab.com/ZenkaBestia" revision="main" />
 
   <!-- Bitbucket -->
   <remote name="elixir-bb" fetch="https://bitbucket.org/project-elixiros" revision="refs/heads/uqpr2" />
@@ -120,4 +122,5 @@
   <!-- Elixir resources Repos-->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="elixir" clone-depth="1" />
 
+  <include name="snippets/lmi.xml" />
 </manifest>
