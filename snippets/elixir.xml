@@ -13,6 +13,10 @@
           fetch="https://gitea.com/ProjectElixir"
           revision="refs/heads/UNO" />
   
+  <remote name="aosp-mirror"
+          fetch="https://github.com/aosp-mirror"
+          revision="refs/heads/main"/>
+  
   <remote name="elixir-devices"
           fetch="https://github.com/ProjectElixir-Devices"
           revision="A14" />
@@ -88,7 +92,7 @@
   
   <!-- System repos -->
   <project path="system/sepolicy" name="system_sepolicy" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
-  <project path="system/core" name="android_system_core" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
+  <project path="system/core" name="platform_system_core" remote="aosp-mirror" revision="main" clone-depth="1" />
   <project path="system/vold" name="system_vold" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
   <project path="system/security" name="system_security" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
   <project path="system/bpf" name="system_bpf" remote="elixir" revision="UNO-QPR2" clone-depth="1" />
